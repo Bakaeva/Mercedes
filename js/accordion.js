@@ -4,7 +4,6 @@ let selectedItem = 0;
 
 featureLinks.forEach((featureLink, ind) => {
 	featureLink.addEventListener('click', () => {
-		console.log('selectedItem = ', selectedItem, 'ind = ', ind);
 		if (ind !== selectedItem)
 		{
 			featureLinks[selectedItem].classList.remove('feature__link_active');
